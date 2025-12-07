@@ -23,7 +23,11 @@ print("3. Insertion Sort")
 
 numero_de_entrada= input('Coloque a ação que você deseja tomar: ')
 
+
+#O(n²) Algorhytms
 if (numero_de_entrada == '1'):
     funções.BubbleSort(lista)
 elif(numero_de_entrada == '2'):
     funções.selection_sort(lista)
+elif(numero_de_entrada == '3'):
+    funções.insertion_sort(lista)
